@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-color: #112;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#footer {
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 2vh;
+    width: 100%;
+    height: 20px;
+}
+
+.container {
+    display: grid;
+    width: 90vw;
+    margin: 20vh auto;
+    text-align: center;
+    padding: 20px;
+    min-width: 300px;
+}
+
+.button-row {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    width: 600px;
+    justify-content: space-around;
+}
+
+.button-row i {
+    margin-right: 8px;
+}
+
+.button-row a {
+    font-size: 20px;
+    text-decoration: none;
+    width: 100%;
+    margin: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.button-row a:hover {
+    color: #112;
+    background-color: #fff;
+}
+
+#header-img {
+    margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .button-row {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .container {
+        margin: 0 auto;
+    }
+
+    .button-row a {
+        margin-top: 12px;
+        padding: 10px 14px;
+    }
+
+    #header-img {
+        width: 80%;
+    }
+}

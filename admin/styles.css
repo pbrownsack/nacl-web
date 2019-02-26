@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background: #112;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(27, 27, 44);
+    box-shadow: 0 0 8px #111;
+}
+
+#navbar .navbar-brand {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+#navbar ul {
+    list-style-type: none;
+}
+
+#navbar .nav-item {
+    margin: 4px;
+    float: left;
+}
+
+.nav-item a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+.nav-item a:hover {
+    color: #112;
+    background-color: white;
+}
+
+.content {
+    text-align: center;
+    margin: 30vh auto;
+}
+
+.content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.content p {
+    font-size: 20px;
+    color: #999;
+}
